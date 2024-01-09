@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["the-headless-blog.local"],
+    domains: ["the-headless-blog.local", "theheadlessblog.kinsta.cloud"],
   },
 };
 

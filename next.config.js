@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ["the-headless-blog.local", "theheadlessblog.kinsta.cloud"],
+    unoptimized: true,
   },
   output: "export",
   trailingSlash: true,

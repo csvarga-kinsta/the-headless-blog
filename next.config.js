@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     domains: ["the-headless-blog.local", "theheadlessblog.kinsta.cloud"],
   },
+  output: "export",
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

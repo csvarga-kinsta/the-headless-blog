@@ -2,7 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["the-headless-blog.local", "theheadlessblog.kinsta.cloud"],
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'the-headless-blog.local'
+      },
+      {
+        protocol: 'https',
+        hostname: 'theheadlessblog.kinsta.cloud'
+      },
+    ],
   },
 };
 

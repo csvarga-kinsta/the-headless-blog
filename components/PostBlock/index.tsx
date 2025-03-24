@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import defaultImage from "@/assets/images/default.jpg";
+const defaultImage = "/default.jpg";
 
 export const PostBlock = ({ post }: { post: any }) => {
   return (
